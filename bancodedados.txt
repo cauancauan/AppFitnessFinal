@@ -1,0 +1,13 @@
+create database appfitness;
+use appfitness;
+
+create table pessoa(
+codigo int not null auto_increment primary key,
+nome varchar(100) not null,
+email varchar(100) not null,
+usuario varchar(100) not null,
+senha varchar(100) not null
+
+)Engine = InnoDB;
+
+select*from pessoa;
