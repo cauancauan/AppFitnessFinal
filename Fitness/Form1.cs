@@ -21,6 +21,8 @@ namespace Fitness
             textBox1.ReadOnly = true;
             textBox5.ReadOnly = true;
             textBox6.ReadOnly = true;
+            
+            
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
@@ -43,7 +45,15 @@ namespace Fitness
 
         }
 
-        
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+         
+        }
+
+
+
+
+
 
         private void Calcular_Click(object sender, EventArgs e)
         {
@@ -57,9 +67,12 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
+
+                
+
                     calculo = 10 * peso + 6.25 * altura - 5 * idade +5;
                     calculo1 = calculo * 1.2;
                     calculo3 = altura / 100;     
@@ -76,9 +89,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade + 5;
                     calculo1 = calculo * 1.375;
                     calculo3 = altura / 100;
@@ -94,9 +107,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade + 5;
                     calculo1 = calculo * 1.55;
                     calculo3 = altura / 100;
@@ -112,9 +125,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade + 5;
                     calculo1 = calculo * 1.725;
                     calculo3 = altura / 100;
@@ -130,9 +143,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade + 5;
                     calculo1 = calculo * 1.9;
                     calculo3 = altura / 100;
@@ -154,9 +167,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade - 161;
                     calculo1 = calculo * 1.2;
                     calculo3 = altura / 100;
@@ -172,9 +185,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade - 161;
                     calculo1 = calculo * 1.375;
                     calculo3 = altura / 100;
@@ -190,9 +203,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade - 161;
                     calculo1 = calculo * 1.55;
                     calculo3 = altura / 100;
@@ -208,9 +221,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade - 161;
                     calculo1 = calculo * 1.725;
                     calculo3 = altura / 100;
@@ -226,9 +239,9 @@ namespace Fitness
                     double calculo1 = 0;
                     double calculo2 = 0;
                     double calculo3 = 0;
-                    int peso = Convert.ToInt32(textBox2.Text);
-                    double altura = Convert.ToDouble(textBox3.Text);
-                    int idade = Convert.ToInt32(textBox4.Text);
+                    int peso = Convert.ToInt32(maskedTextBox1.Text);
+                    double altura = Convert.ToDouble(maskedTextBox2.Text);
+                    int idade = Convert.ToInt32(maskedTextBox3.Text);
                     calculo = 10 * peso + 6.25 * altura - 5 * idade - 161;
                     calculo1 = calculo * 1.9;
                     calculo3 = altura / 100;
@@ -302,6 +315,21 @@ namespace Fitness
         }
 
         private void label6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }

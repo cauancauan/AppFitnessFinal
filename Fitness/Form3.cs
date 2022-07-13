@@ -292,50 +292,50 @@ namespace Fitness
 
         private void Cadastrar_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
+            if (maskedTextBox1.Text == "")
             {
-                textBox1.Text = "0";
+                maskedTextBox1.Text = "0";
             }
-            if (textBox2.Text == "")
+            if (maskedTextBox2.Text == "")
             {
-                textBox2.Text = "0";
+                maskedTextBox2.Text = "0";
             }
-            if (textBox3.Text == "")
+            if (maskedTextBox3.Text == "")
             {
-                textBox3.Text = "0";
+                maskedTextBox3.Text = "0";
             }
-            if (textBox4.Text == "")
+            if (maskedTextBox4.Text == "")
             {
-                textBox4.Text = "0";
+                maskedTextBox4.Text = "0";
             }
-            if (textBox25.Text == "")
+            if (maskedTextBox5.Text == "")
             {
-                textBox25.Text = "0";
+                maskedTextBox5.Text = "0";
             }
-            if (textBox24.Text == "")
+            if (maskedTextBox6.Text == "")
             {
-                textBox24.Text = "0";
+                maskedTextBox6.Text = "0";
             }
-            if (textBox23.Text == "")
+            if (maskedTextBox7.Text == "")
             {
-                textBox23.Text = "0";
+                maskedTextBox7.Text = "0";
             }
-            if (textBox22.Text == "")
+            if (maskedTextBox8.Text == "")
             {
-                textBox22.Text = "0";
+                maskedTextBox8.Text = "0";
             }
 
 
 
 
-            int cafe1 = Convert.ToInt32(textBox1.Text);
-            int cafe2 = Convert.ToInt32(textBox2.Text);
-            int cafe3 = Convert.ToInt32(textBox3.Text);
-            int cafe4 = Convert.ToInt32(textBox4.Text);
-            int cafe5 = Convert.ToInt32(textBox25.Text);
-            int cafe6 = Convert.ToInt32(textBox24.Text);
-            int cafe7 = Convert.ToInt32(textBox23.Text);
-            int cafe8 = Convert.ToInt32(textBox22.Text);
+            int cafe1 = Convert.ToInt32(maskedTextBox1.Text);
+            int cafe2 = Convert.ToInt32(maskedTextBox2.Text);
+            int cafe3 = Convert.ToInt32(maskedTextBox3.Text);
+            int cafe4 = Convert.ToInt32(maskedTextBox4.Text);
+            int cafe5 = Convert.ToInt32(maskedTextBox5.Text);
+            int cafe6 = Convert.ToInt32(maskedTextBox6.Text);
+            int cafe7 = Convert.ToInt32(maskedTextBox7.Text);
+            int cafe8 = Convert.ToInt32(maskedTextBox8.Text);
 
 
             calculo1 = cafe1 + cafe2 + cafe3 + cafe4 + cafe5 + cafe6 +cafe7 +cafe8;
@@ -345,49 +345,49 @@ namespace Fitness
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (textBox6.Text == "")
+            if (maskedTextBox9.Text == "")
             {
-                textBox6.Text = "0";
+                maskedTextBox9.Text = "0";
             }
-            if (textBox7.Text == "")
+            if (maskedTextBox10.Text == "")
             {
-                textBox7.Text = "0";
+                maskedTextBox10.Text = "0";
             }
-            if (textBox8.Text == "")
+            if (maskedTextBox11.Text == "")
             {
-                textBox8.Text = "0";
+                maskedTextBox11.Text = "0";
             }
-            if (textBox9.Text == "")
+            if (maskedTextBox12.Text == "")
             {
-                textBox9.Text = "0";
+                maskedTextBox12.Text = "0";
             }
-            if (textBox29.Text == "")
+            if (maskedTextBox13.Text == "")
             {
-                textBox29.Text = "0";
+                maskedTextBox13.Text = "0";
             }
-            if (textBox28.Text == "")
+            if (maskedTextBox14.Text == "")
             {
-                textBox28.Text = "0";
+                maskedTextBox14.Text = "0";
             }
-            if (textBox27.Text == "")
+            if (maskedTextBox15.Text == "")
             {
-                textBox27.Text = "0";
+                maskedTextBox15.Text = "0";
             }
-            if (textBox26.Text == "")
+            if (maskedTextBox16.Text == "")
             {
-                textBox26.Text = "0";
+                maskedTextBox16.Text = "0";
             }
 
 
 
-            int almoco1 = Convert.ToInt32(textBox6.Text);
-            int almoco2 = Convert.ToInt32(textBox7.Text);
-            int almoco3 = Convert.ToInt32(textBox8.Text);
-            int almoco4 = Convert.ToInt32(textBox9.Text);
-            int almoco5 = Convert.ToInt32(textBox29.Text);
-            int almoco6 = Convert.ToInt32(textBox28.Text);
-            int almoco7 = Convert.ToInt32(textBox27.Text);
-            int almoco8 = Convert.ToInt32(textBox26.Text);
+            int almoco1 = Convert.ToInt32(maskedTextBox9.Text);
+            int almoco2 = Convert.ToInt32(maskedTextBox10.Text);
+            int almoco3 = Convert.ToInt32(maskedTextBox11.Text);
+            int almoco4 = Convert.ToInt32(maskedTextBox12.Text);
+            int almoco5 = Convert.ToInt32(maskedTextBox13.Text);
+            int almoco6 = Convert.ToInt32(maskedTextBox14.Text);
+            int almoco7 = Convert.ToInt32(maskedTextBox15.Text);
+            int almoco8 = Convert.ToInt32(maskedTextBox16.Text);
 
             calculo2 = almoco1 + almoco2 + almoco3 + almoco4 + almoco5 +almoco6 + almoco7+almoco8;
 
@@ -396,49 +396,49 @@ namespace Fitness
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (textBox11.Text == "")
+            if (maskedTextBox17.Text == "")
             {
-                textBox11.Text = "0";
+                maskedTextBox17.Text = "0";
             }
-            if (textBox12.Text == "")
+            if (maskedTextBox18.Text == "")
             {
-                textBox12.Text = "0";
+                maskedTextBox18.Text = "0";
             }
-            if (textBox13.Text == "")
+            if (maskedTextBox19.Text == "")
             {
-                textBox13.Text = "0";
+                maskedTextBox19.Text = "0";
             }
-            if (textBox14.Text == "")
+            if (maskedTextBox20.Text == "")
             {
-                textBox14.Text = "0";
+                maskedTextBox20.Text = "0";
             }
-            if (textBox33.Text == "")
+            if (maskedTextBox21.Text == "")
             {
-                textBox33.Text = "0";
+                maskedTextBox21.Text = "0";
             }
-            if (textBox32.Text == "")
+            if (maskedTextBox22.Text == "")
             {
-                textBox32.Text = "0";
+                maskedTextBox22.Text = "0";
             }
-            if (textBox31.Text == "")
+            if (maskedTextBox23.Text == "")
             {
-                textBox31.Text = "0";
+                maskedTextBox23.Text = "0";
             }
-            if (textBox30.Text == "")
+            if (maskedTextBox24.Text == "")
             {
-                textBox30.Text = "0";
+                maskedTextBox24.Text = "0";
             }
 
 
 
-            int janta1 = Convert.ToInt32(textBox11.Text);
-            int janta2 = Convert.ToInt32(textBox12.Text);
-            int janta3 = Convert.ToInt32(textBox13.Text);
-            int janta4 = Convert.ToInt32(textBox14.Text);
-            int janta5 = Convert.ToInt32(textBox33.Text);
-            int janta6 = Convert.ToInt32(textBox32.Text);
-            int janta7 = Convert.ToInt32(textBox31.Text);
-            int janta8 = Convert.ToInt32(textBox30.Text);
+            int janta1 = Convert.ToInt32(maskedTextBox17.Text);
+            int janta2 = Convert.ToInt32(maskedTextBox18.Text);
+            int janta3 = Convert.ToInt32(maskedTextBox19.Text);
+            int janta4 = Convert.ToInt32(maskedTextBox20.Text);
+            int janta5 = Convert.ToInt32(maskedTextBox21.Text);
+            int janta6 = Convert.ToInt32(maskedTextBox22.Text);
+            int janta7 = Convert.ToInt32(maskedTextBox23.Text);
+            int janta8 = Convert.ToInt32(maskedTextBox24.Text);
 
 
             calculo3 = janta1 + janta2 + janta3 + janta4+janta5+janta6+janta7+janta8;
@@ -448,49 +448,49 @@ namespace Fitness
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (textBox16.Text == "")
+            if (maskedTextBox25.Text == "")
             {
-                textBox16.Text = "0";
+                maskedTextBox25.Text = "0";
             }
-            if (textBox17.Text == "")
+            if (maskedTextBox26.Text == "")
             {
-                textBox17.Text = "0";
+                maskedTextBox26.Text = "0";
             }
-            if (textBox18.Text == "")
+            if (maskedTextBox27.Text == "")
             {
-                textBox18.Text = "0";
+                maskedTextBox27.Text = "0";
             }
-            if (textBox19.Text == "")
+            if (maskedTextBox28.Text == "")
             {
-                textBox19.Text = "0";
+                maskedTextBox28.Text = "0";
             }
-            if (textBox37.Text == "")
+            if (maskedTextBox29.Text == "")
             {
-                textBox37.Text = "0";
+                maskedTextBox29.Text = "0";
             }
-            if (textBox36.Text == "")
+            if (maskedTextBox30.Text == "")
             {
-                textBox36.Text = "0";
+                maskedTextBox30.Text = "0";
             }
-            if (textBox35.Text == "")
+            if (maskedTextBox31.Text == "")
             {
-                textBox35.Text = "0";
+                maskedTextBox31.Text = "0";
             }
-            if (textBox34.Text == "")
+            if (maskedTextBox32.Text == "")
             {
-                textBox34.Text = "0";
+                maskedTextBox32.Text = "0";
             }
 
 
 
-            int outro1 = Convert.ToInt32(textBox16.Text);
-            int outro2 = Convert.ToInt32(textBox17.Text);
-            int outro3 = Convert.ToInt32(textBox18.Text);
-            int outro4 = Convert.ToInt32(textBox19.Text);
-            int outro5 = Convert.ToInt32(textBox37.Text);
-            int outro6 = Convert.ToInt32(textBox36.Text);
-            int outro7 = Convert.ToInt32(textBox35.Text);
-            int outro8 = Convert.ToInt32(textBox34.Text);
+            int outro1 = Convert.ToInt32(maskedTextBox25.Text);
+            int outro2 = Convert.ToInt32(maskedTextBox26.Text);
+            int outro3 = Convert.ToInt32(maskedTextBox27.Text);
+            int outro4 = Convert.ToInt32(maskedTextBox28.Text);
+            int outro5 = Convert.ToInt32(maskedTextBox29.Text);
+            int outro6 = Convert.ToInt32(maskedTextBox30.Text);
+            int outro7 = Convert.ToInt32(maskedTextBox31.Text);
+            int outro8 = Convert.ToInt32(maskedTextBox32.Text);
 
             calculo4 = outro1 + outro2 + outro3 + outro4+outro5+outro6+outro7+outro8;
 
@@ -579,6 +579,61 @@ namespace Fitness
         }
 
         private void textBox37_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox8_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox16_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox15_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox9_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox24_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox17_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox25_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox32_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }

@@ -88,6 +88,38 @@ namespace Fitness
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox11 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox12 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox13 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox14 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox15 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox16 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox17 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox18 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox19 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox20 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox21 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox22 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox23 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox24 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox25 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox26 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox27 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox28 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox29 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox30 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox31 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox32 = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -169,7 +201,7 @@ namespace Fitness
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox5.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox5.Location = new System.Drawing.Point(35, 342);
+            this.textBox5.Location = new System.Drawing.Point(35, 358);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(155, 17);
             this.textBox5.TabIndex = 1;
@@ -229,7 +261,7 @@ namespace Fitness
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox10.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox10.Location = new System.Drawing.Point(204, 342);
+            this.textBox10.Location = new System.Drawing.Point(204, 358);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(155, 17);
             this.textBox10.TabIndex = 1;
@@ -289,7 +321,7 @@ namespace Fitness
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox15.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox15.Location = new System.Drawing.Point(375, 342);
+            this.textBox15.Location = new System.Drawing.Point(375, 358);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(155, 17);
             this.textBox15.TabIndex = 1;
@@ -349,7 +381,7 @@ namespace Fitness
             this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox20.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox20.Location = new System.Drawing.Point(546, 342);
+            this.textBox20.Location = new System.Drawing.Point(546, 358);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(155, 17);
             this.textBox20.TabIndex = 1;
@@ -361,7 +393,7 @@ namespace Fitness
             this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox21.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox21.Location = new System.Drawing.Point(324, 372);
+            this.textBox21.Location = new System.Drawing.Point(324, 388);
             this.textBox21.Multiline = true;
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(246, 37);
@@ -442,7 +474,7 @@ namespace Fitness
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel1.Controls.Add(this.Cadastrar);
-            this.panel1.Location = new System.Drawing.Point(35, 285);
+            this.panel1.Location = new System.Drawing.Point(35, 301);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(155, 37);
             this.panel1.TabIndex = 18;
@@ -451,7 +483,7 @@ namespace Fitness
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel2.Controls.Add(this.button4);
-            this.panel2.Location = new System.Drawing.Point(204, 285);
+            this.panel2.Location = new System.Drawing.Point(204, 301);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(155, 37);
             this.panel2.TabIndex = 20;
@@ -475,7 +507,7 @@ namespace Fitness
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel3.Controls.Add(this.button6);
-            this.panel3.Location = new System.Drawing.Point(375, 285);
+            this.panel3.Location = new System.Drawing.Point(375, 301);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(155, 37);
             this.panel3.TabIndex = 20;
@@ -499,7 +531,7 @@ namespace Fitness
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel4.Controls.Add(this.button7);
-            this.panel4.Location = new System.Drawing.Point(546, 285);
+            this.panel4.Location = new System.Drawing.Point(546, 301);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(155, 37);
             this.panel4.TabIndex = 20;
@@ -523,7 +555,7 @@ namespace Fitness
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel5.Controls.Add(this.button1);
-            this.panel5.Location = new System.Drawing.Point(147, 372);
+            this.panel5.Location = new System.Drawing.Point(147, 388);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(155, 37);
             this.panel5.TabIndex = 20;
@@ -760,7 +792,7 @@ namespace Fitness
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(159)))));
-            this.label7.Location = new System.Drawing.Point(78, 326);
+            this.label7.Location = new System.Drawing.Point(78, 342);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 13);
             this.label7.TabIndex = 62;
@@ -771,7 +803,7 @@ namespace Fitness
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(159)))));
-            this.label8.Location = new System.Drawing.Point(242, 325);
+            this.label8.Location = new System.Drawing.Point(242, 341);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(72, 13);
             this.label8.TabIndex = 63;
@@ -782,7 +814,7 @@ namespace Fitness
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(159)))));
-            this.label9.Location = new System.Drawing.Point(410, 325);
+            this.label9.Location = new System.Drawing.Point(410, 341);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(72, 13);
             this.label9.TabIndex = 64;
@@ -793,11 +825,374 @@ namespace Fitness
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(159)))));
-            this.label10.Location = new System.Drawing.Point(582, 325);
+            this.label10.Location = new System.Drawing.Point(582, 341);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(72, 13);
             this.label10.TabIndex = 65;
             this.label10.Text = "(valor total)";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox1.Location = new System.Drawing.Point(35, 76);
+            this.maskedTextBox1.Mask = "999";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox1.TabIndex = 66;
+            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox2.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox2.Location = new System.Drawing.Point(35, 103);
+            this.maskedTextBox2.Mask = "999";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox2.TabIndex = 67;
+            this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox3.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox3.Location = new System.Drawing.Point(35, 129);
+            this.maskedTextBox3.Mask = "999";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox3.TabIndex = 68;
+            this.maskedTextBox3.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox3_MaskInputRejected);
+            // 
+            // maskedTextBox4
+            // 
+            this.maskedTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox4.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox4.Location = new System.Drawing.Point(35, 157);
+            this.maskedTextBox4.Mask = "999";
+            this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox4.TabIndex = 69;
+            // 
+            // maskedTextBox5
+            // 
+            this.maskedTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox5.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox5.Location = new System.Drawing.Point(35, 184);
+            this.maskedTextBox5.Mask = "999";
+            this.maskedTextBox5.Name = "maskedTextBox5";
+            this.maskedTextBox5.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox5.TabIndex = 70;
+            // 
+            // maskedTextBox6
+            // 
+            this.maskedTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox6.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox6.Location = new System.Drawing.Point(35, 211);
+            this.maskedTextBox6.Mask = "999";
+            this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox6.TabIndex = 71;
+            // 
+            // maskedTextBox7
+            // 
+            this.maskedTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox7.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox7.Location = new System.Drawing.Point(35, 236);
+            this.maskedTextBox7.Mask = "999";
+            this.maskedTextBox7.Name = "maskedTextBox7";
+            this.maskedTextBox7.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox7.TabIndex = 72;
+            // 
+            // maskedTextBox8
+            // 
+            this.maskedTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox8.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox8.Location = new System.Drawing.Point(35, 262);
+            this.maskedTextBox8.Mask = "999";
+            this.maskedTextBox8.Name = "maskedTextBox8";
+            this.maskedTextBox8.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox8.TabIndex = 73;
+            this.maskedTextBox8.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox8_MaskInputRejected);
+            // 
+            // maskedTextBox9
+            // 
+            this.maskedTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox9.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox9.Location = new System.Drawing.Point(204, 262);
+            this.maskedTextBox9.Mask = "999";
+            this.maskedTextBox9.Name = "maskedTextBox9";
+            this.maskedTextBox9.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox9.TabIndex = 81;
+            this.maskedTextBox9.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox9_MaskInputRejected);
+            // 
+            // maskedTextBox10
+            // 
+            this.maskedTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox10.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox10.Location = new System.Drawing.Point(204, 236);
+            this.maskedTextBox10.Mask = "999";
+            this.maskedTextBox10.Name = "maskedTextBox10";
+            this.maskedTextBox10.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox10.TabIndex = 80;
+            // 
+            // maskedTextBox11
+            // 
+            this.maskedTextBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox11.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox11.Location = new System.Drawing.Point(204, 211);
+            this.maskedTextBox11.Mask = "999";
+            this.maskedTextBox11.Name = "maskedTextBox11";
+            this.maskedTextBox11.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox11.TabIndex = 79;
+            // 
+            // maskedTextBox12
+            // 
+            this.maskedTextBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox12.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox12.Location = new System.Drawing.Point(204, 184);
+            this.maskedTextBox12.Mask = "999";
+            this.maskedTextBox12.Name = "maskedTextBox12";
+            this.maskedTextBox12.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox12.TabIndex = 78;
+            // 
+            // maskedTextBox13
+            // 
+            this.maskedTextBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox13.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox13.Location = new System.Drawing.Point(204, 157);
+            this.maskedTextBox13.Mask = "999";
+            this.maskedTextBox13.Name = "maskedTextBox13";
+            this.maskedTextBox13.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox13.TabIndex = 77;
+            // 
+            // maskedTextBox14
+            // 
+            this.maskedTextBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox14.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox14.Location = new System.Drawing.Point(204, 129);
+            this.maskedTextBox14.Mask = "999";
+            this.maskedTextBox14.Name = "maskedTextBox14";
+            this.maskedTextBox14.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox14.TabIndex = 76;
+            // 
+            // maskedTextBox15
+            // 
+            this.maskedTextBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox15.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox15.Location = new System.Drawing.Point(204, 103);
+            this.maskedTextBox15.Mask = "999";
+            this.maskedTextBox15.Name = "maskedTextBox15";
+            this.maskedTextBox15.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox15.TabIndex = 75;
+            this.maskedTextBox15.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox15_MaskInputRejected);
+            // 
+            // maskedTextBox16
+            // 
+            this.maskedTextBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox16.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox16.Location = new System.Drawing.Point(204, 76);
+            this.maskedTextBox16.Mask = "999";
+            this.maskedTextBox16.Name = "maskedTextBox16";
+            this.maskedTextBox16.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox16.TabIndex = 74;
+            this.maskedTextBox16.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox16_MaskInputRejected);
+            // 
+            // maskedTextBox17
+            // 
+            this.maskedTextBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox17.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox17.Location = new System.Drawing.Point(375, 262);
+            this.maskedTextBox17.Mask = "999";
+            this.maskedTextBox17.Name = "maskedTextBox17";
+            this.maskedTextBox17.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox17.TabIndex = 89;
+            this.maskedTextBox17.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox17_MaskInputRejected);
+            // 
+            // maskedTextBox18
+            // 
+            this.maskedTextBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox18.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox18.Location = new System.Drawing.Point(375, 236);
+            this.maskedTextBox18.Mask = "999";
+            this.maskedTextBox18.Name = "maskedTextBox18";
+            this.maskedTextBox18.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox18.TabIndex = 88;
+            // 
+            // maskedTextBox19
+            // 
+            this.maskedTextBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox19.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox19.Location = new System.Drawing.Point(375, 211);
+            this.maskedTextBox19.Mask = "999";
+            this.maskedTextBox19.Name = "maskedTextBox19";
+            this.maskedTextBox19.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox19.TabIndex = 87;
+            // 
+            // maskedTextBox20
+            // 
+            this.maskedTextBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox20.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox20.Location = new System.Drawing.Point(375, 184);
+            this.maskedTextBox20.Mask = "999";
+            this.maskedTextBox20.Name = "maskedTextBox20";
+            this.maskedTextBox20.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox20.TabIndex = 86;
+            // 
+            // maskedTextBox21
+            // 
+            this.maskedTextBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox21.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox21.Location = new System.Drawing.Point(375, 157);
+            this.maskedTextBox21.Mask = "999";
+            this.maskedTextBox21.Name = "maskedTextBox21";
+            this.maskedTextBox21.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox21.TabIndex = 85;
+            // 
+            // maskedTextBox22
+            // 
+            this.maskedTextBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox22.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox22.Location = new System.Drawing.Point(375, 129);
+            this.maskedTextBox22.Mask = "999";
+            this.maskedTextBox22.Name = "maskedTextBox22";
+            this.maskedTextBox22.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox22.TabIndex = 84;
+            // 
+            // maskedTextBox23
+            // 
+            this.maskedTextBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox23.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox23.Location = new System.Drawing.Point(375, 103);
+            this.maskedTextBox23.Mask = "999";
+            this.maskedTextBox23.Name = "maskedTextBox23";
+            this.maskedTextBox23.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox23.TabIndex = 83;
+            // 
+            // maskedTextBox24
+            // 
+            this.maskedTextBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox24.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox24.Location = new System.Drawing.Point(375, 76);
+            this.maskedTextBox24.Mask = "999";
+            this.maskedTextBox24.Name = "maskedTextBox24";
+            this.maskedTextBox24.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox24.TabIndex = 82;
+            this.maskedTextBox24.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox24_MaskInputRejected);
+            // 
+            // maskedTextBox25
+            // 
+            this.maskedTextBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox25.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox25.Location = new System.Drawing.Point(545, 262);
+            this.maskedTextBox25.Mask = "999";
+            this.maskedTextBox25.Name = "maskedTextBox25";
+            this.maskedTextBox25.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox25.TabIndex = 97;
+            this.maskedTextBox25.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox25_MaskInputRejected);
+            // 
+            // maskedTextBox26
+            // 
+            this.maskedTextBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox26.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox26.Location = new System.Drawing.Point(545, 236);
+            this.maskedTextBox26.Mask = "999";
+            this.maskedTextBox26.Name = "maskedTextBox26";
+            this.maskedTextBox26.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox26.TabIndex = 96;
+            // 
+            // maskedTextBox27
+            // 
+            this.maskedTextBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox27.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox27.Location = new System.Drawing.Point(545, 211);
+            this.maskedTextBox27.Mask = "999";
+            this.maskedTextBox27.Name = "maskedTextBox27";
+            this.maskedTextBox27.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox27.TabIndex = 95;
+            // 
+            // maskedTextBox28
+            // 
+            this.maskedTextBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox28.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox28.Location = new System.Drawing.Point(545, 184);
+            this.maskedTextBox28.Mask = "999";
+            this.maskedTextBox28.Name = "maskedTextBox28";
+            this.maskedTextBox28.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox28.TabIndex = 94;
+            // 
+            // maskedTextBox29
+            // 
+            this.maskedTextBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox29.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox29.Location = new System.Drawing.Point(545, 157);
+            this.maskedTextBox29.Mask = "999";
+            this.maskedTextBox29.Name = "maskedTextBox29";
+            this.maskedTextBox29.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox29.TabIndex = 93;
+            // 
+            // maskedTextBox30
+            // 
+            this.maskedTextBox30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox30.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox30.Location = new System.Drawing.Point(545, 129);
+            this.maskedTextBox30.Mask = "999";
+            this.maskedTextBox30.Name = "maskedTextBox30";
+            this.maskedTextBox30.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox30.TabIndex = 92;
+            // 
+            // maskedTextBox31
+            // 
+            this.maskedTextBox31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox31.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox31.Location = new System.Drawing.Point(545, 103);
+            this.maskedTextBox31.Mask = "999";
+            this.maskedTextBox31.Name = "maskedTextBox31";
+            this.maskedTextBox31.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox31.TabIndex = 91;
+            // 
+            // maskedTextBox32
+            // 
+            this.maskedTextBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.maskedTextBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maskedTextBox32.ForeColor = System.Drawing.SystemColors.Window;
+            this.maskedTextBox32.Location = new System.Drawing.Point(545, 76);
+            this.maskedTextBox32.Mask = "999";
+            this.maskedTextBox32.Name = "maskedTextBox32";
+            this.maskedTextBox32.Size = new System.Drawing.Size(155, 26);
+            this.maskedTextBox32.TabIndex = 90;
+            this.maskedTextBox32.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox32_MaskInputRejected);
             // 
             // Form3
             // 
@@ -806,6 +1201,38 @@ namespace Fitness
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(733, 477);
+            this.Controls.Add(this.maskedTextBox25);
+            this.Controls.Add(this.maskedTextBox26);
+            this.Controls.Add(this.maskedTextBox27);
+            this.Controls.Add(this.maskedTextBox28);
+            this.Controls.Add(this.maskedTextBox29);
+            this.Controls.Add(this.maskedTextBox30);
+            this.Controls.Add(this.maskedTextBox31);
+            this.Controls.Add(this.maskedTextBox32);
+            this.Controls.Add(this.maskedTextBox17);
+            this.Controls.Add(this.maskedTextBox18);
+            this.Controls.Add(this.maskedTextBox19);
+            this.Controls.Add(this.maskedTextBox20);
+            this.Controls.Add(this.maskedTextBox21);
+            this.Controls.Add(this.maskedTextBox22);
+            this.Controls.Add(this.maskedTextBox23);
+            this.Controls.Add(this.maskedTextBox24);
+            this.Controls.Add(this.maskedTextBox9);
+            this.Controls.Add(this.maskedTextBox10);
+            this.Controls.Add(this.maskedTextBox11);
+            this.Controls.Add(this.maskedTextBox12);
+            this.Controls.Add(this.maskedTextBox13);
+            this.Controls.Add(this.maskedTextBox14);
+            this.Controls.Add(this.maskedTextBox15);
+            this.Controls.Add(this.maskedTextBox16);
+            this.Controls.Add(this.maskedTextBox8);
+            this.Controls.Add(this.maskedTextBox7);
+            this.Controls.Add(this.maskedTextBox6);
+            this.Controls.Add(this.maskedTextBox5);
+            this.Controls.Add(this.maskedTextBox4);
+            this.Controls.Add(this.maskedTextBox3);
+            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -935,5 +1362,37 @@ namespace Fitness
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox6;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox7;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox8;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox9;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox10;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox11;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox12;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox13;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox14;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox15;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox16;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox17;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox18;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox19;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox20;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox21;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox22;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox23;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox24;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox25;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox26;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox27;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox28;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox29;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox30;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox31;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox32;
     }
 }
